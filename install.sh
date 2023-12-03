@@ -5,7 +5,6 @@ set -eu
 sudo apt update -y
 sudo apt upgrade -y
 
-# install
 sudo apt-get install -y build-essential fzf wget zsh
 
 # install oh-my-zsh
