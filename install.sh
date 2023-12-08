@@ -2,8 +2,8 @@
 
 set -eu
 
-sudo apt update -y
-sudo apt upgrade -y
+# sudo apt update -y
+# sudo apt upgrade -y
 
 sudo apt-get install -y build-essential fzf wget zsh
 
