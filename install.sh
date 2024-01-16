@@ -1,9 +1,9 @@
-#!/usr/bin sh
+!/usr/bin sh
 
 set -eu
 
-# sudo apt update -y
-# sudo apt upgrade -y
+sudo apt update -y
+sudo apt upgrade -y
 
 sudo apt-get install -y build-essential wget zsh
 
