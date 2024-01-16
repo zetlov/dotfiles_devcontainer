@@ -5,10 +5,12 @@ set -eu
 sudo apt update -y
 sudo apt upgrade -y
 
-curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
-sudo apt-get update
+# git lfs
+# curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+# sudo apt-get update
+# sudo apt-get install -y git-lfs
 
-sudo apt-get install -y build-essential wget zsh git-lfs
+sudo apt-get install -y build-essential wget zsh
 git lfs install
 
 # install oh-my-zsh
