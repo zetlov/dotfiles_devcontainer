@@ -11,7 +11,7 @@ sudo apt upgrade -y
 # sudo apt-get install -y git-lfs
 
 sudo apt-get install -y build-essential wget zsh
-git lfs install
+# git lfs install
 
 # install oh-my-zsh
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"

@@ -1,10 +1,10 @@
 [user]
     name=zetlov
     email=zetlov00@gmail.com
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
+# [filter "lfs"]
+# 	clean = git-lfs clean -- %f
+# 	smudge = git-lfs smudge -- %f
+# 	process = git-lfs filter-process
+# 	required = true
 [credential]
 	helper = "!f() { /home/vscode/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node /tmp/vscode-remote-containers-ed2b2bbd-fe41-4398-8fa2-febf4f00c305.js git-credential-helper $*; }; f"
