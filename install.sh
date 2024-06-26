@@ -16,3 +16,5 @@ cd ~/
 
 ln -fs ~/dotfiles/.zshrc .
 ln -fs ~/dotfiles/.gitconfig .
+
+echo "exec /usr/bin/zsh" > ~/.bashrc
