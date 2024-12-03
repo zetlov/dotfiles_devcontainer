@@ -13,7 +13,7 @@ sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/ins
 # change default shell
 # if [ "$SHELL" != "$(which zsh)" ]; then
 # chsh -s $(which zsh) || echo "Please try running chsh -s $(which zsh)"
-chsh -s "/usr/bin/zsh"
+sudo chsh $USER -s "/usr/bin/zsh"
 # fi
 
 # create symbolic links
