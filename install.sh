@@ -28,7 +28,7 @@ fi
 # change default shell
 # if [ "$SHELL" != "$(which zsh)" ]; then
 # chsh -s $(which zsh) || echo "Please try running chsh -s $(which zsh)"
-sudo chsh ubuntu -s "/usr/bin/zsh"
+sudo chsh $(whoami) -s "/usr/bin/zsh"
 # fi
 
 # create symbolic links
